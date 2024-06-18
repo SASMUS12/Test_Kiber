@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
     display: flex;
+    background-color: #ffffff;
     justify-content: center;
     align-items: center;
     max-width: 1920px;
@@ -15,62 +15,75 @@ body {
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 10px;
+
+    margin: 40px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background-color: #EBF0FA;
+    border-radius: 10px;
+
 }
 
 .content {
-
+    width: 930px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
     padding: 40px;
-    background-color: #e0e7ff;
+    background-color: #EBF0FA;
 }
 
 .content h1 {
-    font-size: 36px;
-    color: #2c3e50;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #1F4284;
     margin-bottom: 20px;
 }
 
 .content p {
-    font-size: 18px;
+    max-width: 511px;
+    font-size: 17px;
     color: #2c3e50;
     margin-bottom: 30px;
     line-height: 1.6;
 }
 
 .cta_button {
-    display: inline-block;
     width: 341px;
     height: 68px;
-    padding: 15px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: rgba(36, 76, 152, 1);
+    background-color: #1e3a8a;
+    color: white;
     border: none;
+    padding: 12px 12px 12px 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.8px;
     border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
     cursor: pointer;
-    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .cta_button:hover {
-    background-color: #1a242f;
+    background-color: #2a5298;
 }
 
 .cta_btn_arrow {
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background-color: white;
 }
 
 .image_container {
     flex: 1;
+    max-width: 910px;
     display: flex;
     justify-content: center;
     align-items: center;
